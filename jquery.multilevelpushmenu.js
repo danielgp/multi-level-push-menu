@@ -17,7 +17,7 @@
 		this.each(function(){
 			var instance = this,
 				$this = $( this ),
-				$container = ( $this.context != undefined ) ? $this : $( 'body' ),
+				$container = $this,
 				menu = ( options && options.menu != undefined ) ? options.menu : $this.find( 'nav' ),
 				clickEventType, dragEventType;
 
