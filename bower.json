@@ -23,6 +23,6 @@
     "multilevelpushmenu.jquery.json"
   ],
   "dependencies": {
-    "jquery": ">=1.10"
+    "jquery": ">=3.7"
   }
 }
